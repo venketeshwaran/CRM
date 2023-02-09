@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="number" value="1234567890"/>
+  <parameter name="city" value="Madurai"/>
+  <parameter name="language" value="Tamil"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="org.test.RecruitCRM">
+        <methods>
+          <include name="testCase03"/>
+          <include name="testCase08"/>
+          <include name="testCase09"/>
+          <include name="testCase06"/>
+          <include name="testCase07"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="testCase01"/>
+          <include name="testCase10"/>
+          <include name="testCase04"/>
+          <include name="testCase05"/>
+          <include name="testCase02"/>
+        </methods>
+      </class> <!-- org.test.RecruitCRM -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

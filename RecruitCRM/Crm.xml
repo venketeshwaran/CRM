@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <parameter name="number" value="1234567890"></parameter>
+  <parameter name="city" value="Madurai"></parameter>
+  <parameter name="language" value="Tamil"></parameter>
+  <test thread-count="5" name="Test">
+
+    <classes>
+      <class name="org.test.RecruitCRM"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
